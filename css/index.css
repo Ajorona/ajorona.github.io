@@ -1,0 +1,15 @@
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+	max-width: 960px;
+}
+
+.ed-table {
+	font-size: 0.7rem;
+	text-align: center;
+}
