@@ -1,213 +1,238 @@
- 
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width" name="viewport">
     <title>Anthony Orona Resume</title>
-    <meta name="description" content="Resume for programmer Anthony Orona">
-
-    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <meta content="Resume for programmer Anthony Orona" name="description">
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <header class="main-header">
-
-      <div class ="name-header">
-        <img class="avatar" src="images/avatar.png" alt="Anthony Orona">
-        <h1>Anthony Orona</h1>
-        <div>
-
-        <div class="contact">
-          <a href="#">Download my Resume</a>
-          <a href="mailto:anthonyorona.us@gmail.com">Contact Me</a>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body class="container content">
+    <header>
+        <div class="container justify-content-center">
+            <div class="row bg-light text-center">
+                <div class="col">
+                    <img class="rounded-circle img-thumbnail" height="150" src="images/avatar.png" width="150">
+                    <h4 class="text-dark">Anthony Orona</h4>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="container">
+            <div class="dropdown-divider"></div>
+            <nav class="navbar navbar-expand justify-content-between">
+                <span class="navbar-brand ml-5">Junior Developer</span>
 
-      <div class="title-bar">
-        <h2 class="subtitle">Web Developer</h2>
-        <ul class="contact-bar">
-          <li>
-            <a href="https://github.com/Ajorona">
-              <img src="images/social_media/github.svg">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/ajorona/">
-              <img src="images/social_media/linkedin.png">
-            </a>
-          </li>
-        </ul>
-      </div>
-
+                <ul class="navbar-nav nav-pills mr-7">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light btn-sm mr-2" href="https://www.linkedin.com/in/ajorona/">
+                            <img src="images/icons/in.svg" width="30" height="30" alt="LinkedIn">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light btn-sm mr-2" href="https://github.com/ajorona">
+                            <img src="images/icons/github.svg"" width="30" height="30" alt="GitHub">
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="btn btn-outline-light btn-sm mr-2" href="mailto:anthonyorona.us@gmail.com">
+                            <img src="images/icons/env.svg"" width="30" height="30" alt="Contact">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                    	<form method="get" action="Resume_Anthony_Orona.pdf">
+	                        <button class="btn btn-outline-info btn-sm mr-2" href="#" type="submit">
+	                            <img src="images/icons/plane.svg"" width="30" height="30" alt="Resume">
+	                            <span>resume</span>
+	                        </button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+            <div class="dropdown-divider"></div>
+        </div>
     </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <table class="table table-bordered table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th>Contents</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#skills">Skills</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#experience">Experience</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#education">Education</a></td>
+                        </tr>
+                    </tbody>
 
-    <main>
+                </table>
+            </div>
 
-      <button class="accordion">SKILLS</button>
-      <div class="panel">
-        <h4 class="item-details">Web Development</h4>
-        <p class="item-copy"></p>
+            <div class="col-md-8">
+                <h4 class="display-6">About Me</h4>
+                <p class="lead font-weight-light text-justify">
+                    Computer & Science Geek with background in Cell Biology and CS. Dedicated on
+                    coding, web development, and ed tech.
+                </p>
+            </div>
 
-        <h4 class="item-details">Software Development</h4>
-        <p class="item-copy"></p>
-        
-        <h4 class="item-details">Education</h4>
-        <p class="item-copy"></p>
-      </div>
-
-      <button class="accordion">EXPERIENCE</button>
-      <div class="panel">
-        <h3 class="item-title">Title</h3>
-        <h4 class="item-details">Dates</h4>
-        <p class="item-copy"> Description</p>
-
-        <h3 class="item-title">Title</h3>
-        <h4 class="item-details">Dates</h4>
-        <p class="item-copy"> Description</p>
-
-        <h3 class="item-title">Title</h3>
-        <h4 class="item-details">Dates</h4>
-        <p class="item-copy"> Description</p>
-
-        <h3 class="item-title">Title</h3>
-        <h4 class="item-details">Dates</h4>
-        <p class="item-copy"> Description</p>
-
-        <h3 class="item-title">Title</h3>
-        <h4 class="item-details">Dates</h4>
-        <p class="item-copy"> Description</p>
-      </div>
-
-      <button class="accordion">PROJECTS</button>
-      <div class="panel">
-        <h3 class="item-title">Title</h3>
-        <h4 class="item-details">Dates</h4>
-        <p class="item-copy"> Description</p>
-
-        <h3 class="item-title">Title</h3>
-        <h4 class="item-details">Dates</h4>
-        <p class="item-copy"> Description</p>
-
-        <h3 class="item-title">Title</h3>
-        <h4 class="item-details">Dates</h4>
-        <p class="item-copy"> Description</p>
-      </div>
-
-      <button class="accordion">EDUCATION</button>
-      <div class="panel">
-        <div class="ed-text">
-          <p> My long-term intent is to attain a technical master"s degree  involving CS. My progress toward this end has been through massively open online courses and courses from regionally-accredited colleges and universities guided by <a href="https://teachyourselfcs.com/">teach yourself computer science.</a>
-          </p>
-          <table class="ed-table">
-            <tr>
-              <th>Name</th>
-              <th>Institution</th>
-              <th>Classification</th>
-            </tr>
-            <tr id="1">
-              <td>Biochemistry</td>
-              <td>UC San Diego</td>
-              <td>Bachelor"s of Science</td>
-            </tr>
-            <tr id="2">
-              <td>Biology</td>
-              <td>UC San Diego</td>
-              <td>Graduate School (34 units)</td>
-            </tr>
-            <tr id="3">
-              <td>Full Stack Web Dev.</td>
-              <td>Udacity</td>
-              <td>6 month certificate</td>
-            </tr>
-            <tr id="4">
-              <td>Introduction to OOP</td>
-              <td>Foothill</td>
-              <td>course</td>
-            </tr>
-            <tr id="5">
-              <td>Inter. Software Design</td>
-              <td>Foothill</td>
-              <td>course</td>
-            </tr>
-            <tr id="6">
-              <td>Computer Architecture</td>
-              <td>Foothill</td>
-              <td>course</td>
-            </tr>
-            <tr id="7">
-              <td>Adv. DS&A</td>
-              <td>Foothill</td>
-              <td>course (in progress)</td>
-            </tr>
-            <tr id="8">
-              <td>Intro to DBMS</td>
-              <td>Foothill</td>
-              <td>course (in progress)</td>
-            </tr>
-          </table>
-          <table class="ed-table">
-            <tr>
-              <th>Name</th>
-              <th>Institution</th>
-              <th>Classification</th>
-            </tr>
-            <tr id="9">
-              <td>Intro to Probability</td>
-              <td>MIT on EdX</td>
-              <td>16-week certificate</td>
-            </tr>
-            <tr id="10">
-              <td>Intro to Networking</td>
-              <td>Stanford on EdX</td>
-              <td>10-week certificate</td>
-            </tr>
-            <tr id="11">
-              <td>DS&A </td>
-              <td>Stanford on coursera</td>
-              <td>12-week certificate</td>
-            </tr>
-            <tr id="12">
-              <td>Operating Systems</td>
-              <td>Thompson Rivers U.</td>
-              <td>course</td>
-            </tr>
-            <tr>
-              <td id="13">Linear Algebra</td>
-              <td>US University</td>
-              <td>course</td>
-            </tr>
-            <tr id="14">
-              <td>Discrete Structures</td>
-              <td>Brandman U.</td>
-              <td>course</td>
-            </tr>
-            <tr id="15">
-              <td>Business Foundations</td>
-              <td>Wharton on coursera</td>
-              <td>16-week certificate</td>
-            </tr>
-            <tr id="16">
-              <td colspan="3"> ++more in pipeline..</td>
-            </tr>
-          </table>  
         </div>
-        <div class="ed-logo-container">
-          <img id="ucsd" src="https://i.imgur.com/oPKqqCY.png">
-          <img id="foothill" src="https://i.imgur.com/AU0Cgh0.jpg">
-          <img id="tru" src="https://i.imgur.com/F6vQRqh.png">
-          <img id="usu" src="https://i.imgur.com/dtOBOkQ.png">
+        <div class="dropdown-divider"></div>
+        <div id="skills">
+            <h4>Skills</h4>
+            <p class="item-copy">Languages: Java, Python, JavaScript, HTML/CSS, SQL, C/C++</p>
+            <p class="item-copy">Frameworks & Tools: Django, Bootstrap 4, React, Git</p>
+            <p class="item-copy">Instruction and material development, technical training, retail sales experience, 90+ WPM typing speed</p>
         </div>
-        <div class="ed-logo-container">
-          <img id="edx" src="https://i.imgur.com/NLvGQja.jpg">
-          <img id="brandman" src="https://i.imgur.com/ZvCnZwF.jpg">
-          <img id="coursera" src="https://i.imgur.com/FvSwXcM.png">
-          <img id="udacity" src="https://i.imgur.com/tYp1oJb.jpg">
+        <div class="dropdown-divider"></div>
+        <div id="experience">
+            <h4>Experience</h4>
+
+            <h6 class="font-weight-bold">The Coder School, Cupertino</h6>
+            <p>  - Instruct group classes and teach students 1:1 from kindergarten to first-year college.</p>
+            <p>  - Lead programming camps for Python, Web Development, and Scratch Programming.</p>
+            
+            <h6 class="font-weight-bold">Mathnasium</h6>
+            <p>  - Instruct groups of students in K-12 math and SAT prep.</p>
+            
+            <h6 class="font-weight-bold">La Jolla Learning Works</h6>
+            <p>  - Coached ISEE, SAT, and HSPT exam preparation and tutored AP Biology, Chemistry, and math.</p>
+            <p>  - Guide the preparation of private school applications.</p>
+            
+            <h6 class="font-weight-bold">UC San Diego School of Medicine and UC San Diego Biology Department</h6>
+            <p>  - Teaching Assistant - Led review sessions for multiple courses, discussion sections for 120 students, held office hours.</p>
+            <p>  - Educational Laboratory Support - Maintained anatomy, microbiology, and histopathology laboratories.</p>
+            <p>  - Exam Proctor for Office of Students with Disabilities - Administered Biology exams.</p>
+            <p>  - 5 years of Biomedical and Basic Biology laboratory research experience.</p>
+            <p>  - Administrative Assistant - Directed follow-up interviews and documented cohort data for NCI CURE program.</p>
         </div>
-      </div>
+
+        <div class="dropdown-divider"></div>
+
+        <div class="container" id="education">
+            <h4>Education</h4>
+            <div class="row ed-table">   
+                <div class="col-md-6">
+                    <table class="table table-hover table-sm">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Topic</th>
+                                <th>Institution</th>
+                                <th>Classification</th>
+                            </tr>
+                        </thead>
+                        <tbody>    
+                            <tr id="1">
+                                <td>Biochemistry</td>
+                                <td>UC San Diego</td>
+                                <td>B.S.</td>
+                            </tr>
+                            <tr id="2">
+                                <td>Cell Biology</td>
+                                <td>UC San Diego</td>
+                                <td>M.S. (34 of 36 units)</td>
+                            </tr>
+                            <tr id="3">
+                                <td>Full Stack Web Dev.</td>
+                                <td>Udacity</td>
+                                <td>Nanodegree</td>
+                            </tr>
+                            <tr id="4">
+                                <td>Introduction to OOP</td>
+                                <td>Foothill</td>
+                                <td>course</td>
+                            </tr>
+                            <tr id="5">
+                                <td>Inter. Software Design</td>
+                                <td>Foothill</td>
+                                <td>course</td>
+                            </tr>
+                            <tr id="6">
+                                <td>Computer Architecture</td>
+                                <td>Foothill</td>
+                                <td>course</td>
+                            </tr>
+                            <tr id="7">
+                                <td>Data Structures</td>
+                                <td>Foothill</td>
+                                <td>course</td>
+                            </tr>
+                            <tr id="8">
+                                <td>Intro to Databases</td>
+                                <td>Foothill</td>
+                                <td>course</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-md-6">
+                    <table class="table table-hover table-sm">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Topic</th>
+                                <th>Institution</th>
+                                <th>Classification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="9">
+                                <td>Intro to Probability</td>
+                                <td>MIT on EdX</td>
+                                <td>16-week certificate</td>
+                            </tr>
+                            <tr id="10">
+                                <td>Intro to Networking</td>
+                                <td>Stanford on EdX</td>
+                                <td>10-week certificate</td>
+                            </tr>
+                            <tr id="11">
+                                <td>Algorithms</td>
+                                <td>Stanford on coursera</td>
+                                <td>12-week certificate</td>
+                            </tr>
+                            <tr id="12">
+                                <td>Operating Systems</td>
+                                <td>Thompson Rivers U.</td>
+                                <td>course</td>
+                            </tr>
+                            <tr>
+                                <td id="13">Linear Algebra</td>
+                                <td>US University</td>
+                                <td>course</td>
+                            </tr>
+                            <tr id="14">
+                                <td>Discrete Structures</td>
+                                <td>Brandman U.</td>
+                                <td>course</td>
+                            </tr>
+                            <tr id="15">
+                                <td>Business Foundations</td>
+                                <td>Wharton on coursera</td>
+                                <td>16-week certificate</td>
+                            </tr>
+                            <tr id="16">
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </main>
-    <script src="index.js"></script>
-  </body>
+    <script src="bootstrap.min.js" type="text/javascript"></script>
+</body>
 </html>

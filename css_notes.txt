@@ -1,0 +1,22 @@
+
+block level:
+    div
+    paragraph
+    heading
+
+inline:
+   image
+   link
+   span text
+
+
+flexbox
+    main axis
+    cross axis
+
+vertical layout
+
+
+horizontal layout
+
+
